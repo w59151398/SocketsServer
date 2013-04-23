@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
 using System.IO;
-using System.Data;
-
 namespace test1
 {
     class Program
@@ -20,15 +18,9 @@ namespace test1
             // 获得IPAddress 对象的另外几种常用方法：
             //IPAddress ip = IPAddress.Parse("127.0.0.1");
             //IPAddress ip = Dns.GetHostEntry("localhost").AddressList[0];
-            //草泥马王祥
             TcpListener listener = new TcpListener(ip, 8500);
             listener.Start();//开始侦听;
             Console.WriteLine("Start Listening ...");
-
-            while(true)
-            {
-                return;               
-            }
 
 
                 //获取一个连接，中断方法
