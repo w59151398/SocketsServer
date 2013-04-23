@@ -1,4 +1,9 @@
-﻿using System;
+/*
+ *创建者：王祥
+ *创建时间：2013-04-23 16:46:36
+ *文件描述：Sockets测试代码
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
